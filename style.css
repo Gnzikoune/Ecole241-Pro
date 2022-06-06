@@ -84,7 +84,7 @@ p{
     background: #ffeb00;
     color: black;
     /* transform: translateY(-304%); */
-    /* margin-left: 900px; */
+    margin-left: 990px;
     font-size: 17px;
     overflow: hidden;
     transition: 0.3s;
@@ -273,7 +273,7 @@ a span:nth-child(1){
          width: 150px;
          height: 150px;
          margin-top: 15px;
-         margin-left: -50px;
+         margin-left: -30px;
      }
      .btn{
          width: 100px;
