@@ -25,12 +25,16 @@ img{
     width: 200px;
     justify-content: center;
     align-items: center;
-    transform: translateY(-25%);
+    /* transform: translateY(-25%); */
     margin-left: 20px;
     border: none;
 }
 
-
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
     /* Barre de navigation */
 
@@ -38,7 +42,8 @@ img{
     width: 100%;
     height: 80px;
     background: white;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -79,8 +84,8 @@ p{
     border-radius: 8px;
     background: #ffeb00;
     color: black;
-    transform: translateY(-304%);
-    margin-left: 900px;
+    /* transform: translateY(-304%); */
+    /* margin-left: 900px; */
     font-size: 17px;
     overflow: hidden;
     transition: 0.3s;
@@ -245,3 +250,22 @@ a span:nth-child(1){
     text-transform: capitalize;
     margin: 0.2rem 2rem;
 }
+
+
+        /* Responsive */
+
+ @media  (max-width:950px) {
+     h1 {
+         font-size: 30px;
+     }
+     p{
+         font-size: 15px;
+
+     }
+     .logo{
+         display: flex;
+         width: 100%;
+         justify-content: space-around;
+         /* margin-left: -50px; */
+     }
+ }
