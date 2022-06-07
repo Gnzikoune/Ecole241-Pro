@@ -131,11 +131,12 @@ p{
 
 
 .section2{
-    margin-top: 450px;
+    margin-top: 430px;
+    margin-left: 50px;
 }
 
 .section3{
-    margin-top: -1250px;
+    margin-top: -1200px;
 }
 
 
@@ -213,7 +214,7 @@ a span:nth-child(1){
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: -950px;
+    margin-top: -980px;
     margin-left: 900px;
     transform: rotate(-90deg);
 }
